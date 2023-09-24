@@ -225,16 +225,16 @@
 		46812E6F2AAF01B400E1DD67 /* FindNearCVS */ = {
 			isa = PBXGroup;
 			children = (
-				46AD41A92AC0940F0004CD47 /* Network */,
-				46AD419D2AC08DCF0004CD47 /* Entities */,
+				46812EA02AAF041400E1DD67 /* BridgingHeader.h */,
 				46812E702AAF01B400E1DD67 /* AppDelegate.swift */,
 				46812E722AAF01B400E1DD67 /* SceneDelegate.swift */,
-				46812E762AAF01B400E1DD67 /* Main.storyboard */,
+				46AD419D2AC08DCF0004CD47 /* Entities */,
+				46AD41A92AC0940F0004CD47 /* Network */,
+				46AD41A62AC08E540004CD47 /* Presentation */,
 				46812E792AAF01B500E1DD67 /* Assets.xcassets */,
+				46812E762AAF01B400E1DD67 /* Main.storyboard */,
 				46812E7B2AAF01B500E1DD67 /* LaunchScreen.storyboard */,
 				46812E7E2AAF01B500E1DD67 /* Info.plist */,
-				46812EA02AAF041400E1DD67 /* BridgingHeader.h */,
-				46AD41A62AC08E540004CD47 /* Presentation */,
 			);
 			path = FindNearCVS;
 			sourceTree = "<group>";
@@ -347,10 +347,8 @@
 		46AD41A62AC08E540004CD47 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				46AD41B92AC0B0BA0004CD47 /* Details */,
 				46AD41B02AC0947D0004CD47 /* LocationInfo */,
-				46AD41B32AC094C50004CD47 /* DetailCell.swift */,
-				46AD41B52AC094DD0004CD47 /* DetailLisetBackgroundView.swift */,
-				46AD41B72AC094EE0004CD47 /* DetailListBackgroundViewModel.swift */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -372,6 +370,16 @@
 				46AD41B12AC094960004CD47 /* LocationInformationModel.swift */,
 			);
 			path = LocationInfo;
+			sourceTree = "<group>";
+		};
+		46AD41B92AC0B0BA0004CD47 /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				46AD41B32AC094C50004CD47 /* DetailCell.swift */,
+				46AD41B52AC094DD0004CD47 /* DetailLisetBackgroundView.swift */,
+				46AD41B72AC094EE0004CD47 /* DetailListBackgroundViewModel.swift */,
+			);
+			path = Details;
 			sourceTree = "<group>";
 		};
 		E6E57DF8ED2C90244DCF1DCC /* Pods */ = {

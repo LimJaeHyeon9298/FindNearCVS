@@ -22,7 +22,7 @@ class LocalNetwork {
         
         let request = NSMutableURLRequest(url: url)
         request.httpMethod = "GET"
-        request.setValue("KakaoAK d85d835f5b31f206840ccaeddd829f2a", forHTTPHeaderField: "Authorization")
+        request.setValue("KakaoAK 5e19b5f17797c52b448555d34c96ba0f", forHTTPHeaderField: "Authorization")
         
         return session.rx.data(request: request as URLRequest)
             .map { data in
